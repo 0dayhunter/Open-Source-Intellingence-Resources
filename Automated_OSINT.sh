@@ -1,5 +1,9 @@
 #!/bin/bash
-
+# 
+# Reqirements:    gowitness install  >> $ go install github.com/sensepost/gowitness@latest
+#               httprobe  install  >> $ sudo apt install httprobe
+#           assetfinder install  >> $ sudo apt install assetfinder
+#
 # Check for the required argument
 if [ $# -ne 1 ]; then
     echo "Usage: $0 <domain>"
